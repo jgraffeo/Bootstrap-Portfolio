@@ -1,0 +1,169 @@
+body {
+    background-image: url(wheat.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.responsive {
+    max-width: 80%;
+    height: auto;
+}
+
+.mycontainer {
+    border: 2px purple;
+}
+
+.my-row {
+    border: 2px green;
+}
+
+.my-col {
+    border: 2px yellow;
+}
+
+p {
+    text-align: left;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    float: center;
+    margin-right: 10px;
+    size: 80%;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:link {
+    color: #4aaaa5;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #138581;
+}
+
+a:active {
+
+}
+
+.navbar {
+    background-color: #ffffff;
+  }
+ .navbar .navbar-brand {
+    color: #9a9898;
+  }
+ .navbar .navbar-brand:hover,
+ .navbar .navbar-brand:focus {
+    color: #9a9898;
+  }
+ .navbar .navbar-text {
+    color: #9a9898;
+  }
+ .navbar .navbar-text a {
+    color: #9a9898;
+  }
+ .navbar .navbar-text a:hover,o
+  .navbar .navbar-text a:focus {
+    color: #9a9898;
+  }
+ .navbar .navbar-nav .nav-link {
+    color: #9a9898;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+ .navbar .navbar-nav .nav-item.active .nav-link,
+ .navbar .navbar-nav .nav-item.active .nav-link:hover,
+ .navbar .navbar-nav .nav-item.active .nav-link:focus,
+ .navbar .navbar-nav .nav-item.show .nav-link,
+ .navbar .navbar-nav .nav-item.show .nav-link:hover,
+ .navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #9a9898;
+  background-color: #ffffff;
+ }
+ 
+ .navbar .navbar-toggle {
+    border-color: #ffffff;
+  }
+ .navbar .navbar-toggle:hover,
+ .navbar .navbar-toggle:focus {
+    background-color: #ffffff;
+  }
+ .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #9a9898;
+  }
+ .navbar .navbar-collapse,
+ .navbar .navbar-form {
+    border-color: #9a9898;
+  }
+ .navbar .navbar-link {
+    color: #9a9898;
+  }
+ .navbar .navbar-link:hover {
+    color: #9a9898;
+  }
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 10px;
+    margin: 2px 0px 2px 0px;
+    border-top: 8px solid #b85757;
+    background: #25245c;
+    width: 100%;
+    height: 50px;
+    color: rgb(216, 216, 216);
+    clear: both;
+    font-size: 16px;
+    bottom: fixed;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    font: Georgia;
+    color: black;
+    height: 50%;
+    padding: 10px 10px 30px 10px;
+    margin-bottom: 50px;
+}
+
+#contact-form {
+    margin-bottom: -80px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    padding: 0px;
+}
+
+#portfolio-section {
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+}
+
+.porfolio-images {
+    max-width: 50%;
+    height: auto;
+} 
+
+/* Things I need help with on Saturday:
+Background image 
+Shrinking forms
+Are my dimensions all right?
+Gitbash terminal - pulling and pushing docs from/into repository
+Problems with Gitbash in general
