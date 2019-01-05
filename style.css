@@ -1,3 +1,13 @@
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    opacity: 50%;
+    color: black;
+}
+
 body {
     background-image: url(wheat.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
